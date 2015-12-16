@@ -1,0 +1,325 @@
+// Primary colors
+$sg-blue:         #1a82e2;
+$slate:           #294661;
+$mantis:          #18c96e;
+$ron-burgundy:    #b71c1c;
+$burnt-orange:    #ff5722;
+$carrot:          #f90;
+$mango:           #fdd835;
+$spruce:          #4cb04f;
+$grass-stain:     #8ac24a;
+$lime:            #cbdb39;
+$cobalt:          #303f9f;
+$bluebird:        #2196f3;
+$seafoam:         #00bcd4;
+$caribbean:       #00e5ff;
+$crown:           #7b1fa2;
+$screample:       #7c4dff;
+$sangria:         #880e4f;
+$lavender:        #dea7e8;
+$wild-strawberry: #ff4081;
+$steel:           #9e9e9e;
+$white:           #fff;
+$black:           #000;
+
+// Application colors
+$nav-bg:          #f6f6f6;
+$dropdown-bg:     #fbfbfc;
+$dropdown-border: #e6e9ec;
+
+// Variations on $sg-blue
+$sg-blue-90: rgba($sg-blue, 0.9);
+$sg-blue-80: rgba($sg-blue, 0.8);
+$sg-blue-70: rgba($sg-blue, 0.7);
+$sg-blue-60: rgba($sg-blue, 0.6);
+$sg-blue-50: rgba($sg-blue, 0.5);
+$sg-blue-40: rgba($sg-blue, 0.4);
+$sg-blue-30: rgba($sg-blue, 0.3);
+$sg-blue-20: rgba($sg-blue, 0.2);
+$sg-blue-10: rgba($sg-blue, 0.1);
+$sg-blue-05: rgba($sg-blue, 0.05);
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+// The 'hidden' class will hide any element
+.hidden {
+  // scss-lint:disable ImportantRule
+  display: none !important;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+button,
+button:hover,
+button:active,
+button:focus {
+  outline: none;
+}
+
+a {
+  color: $sg-blue-80;
+  text-decoration: none;
+}
+a:hover {
+  color: $sg-blue;
+}
+
+
+
+//
+// @license
+// MyFonts Webfont Build ID 3098758, 2015-09-28T11:52:34-0400
+//
+// The fonts listed in this notice are subject to the End User License
+// Agreement(s) entered into by the website owner. All other parties are
+// explicitly restricted from using the Licensed Webfonts(s).
+//
+// You may obtain a valid license at the URLs below.
+//
+// Webfont: ProximaNova-Light by Mark Simonson
+// URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+//
+// Webfont: ProximaNova-LightIt by Mark Simonson
+// URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light-it/
+//
+// Webfont: ProximaNova-Regular by Mark Simonson
+// URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+//
+// Webfont: ProximaNova-RegularIt by Mark Simonson
+// URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+//
+// Webfont: ProximaNova-Semibold by Mark Simonson
+// URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+//
+// Webfont: ProximaNova-SemiboldIt by Mark Simonson
+// URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold-it/
+//
+// Webfont: ProximaNovaT-Thin by Mark Simonson
+// URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin/
+//
+// Webfont: ProximaNova-ThinIt by Mark Simonson
+// URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin-it/
+//
+//
+// License: http://www.myfonts.com/viewlicense?type=web&buildid=3098758
+// Licensed pageviews: 10,000,000
+// Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+//
+// © 2015 MyFonts Inc
+
+// @import must be at top of file, otherwise CSS will not work
+@import url('//hello.myfonts.net/count/2f01f3');
+
+$font-path: 'style-guide/' !default;
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: font-url('#{$font-path}ProximaNova/2F4886_0_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_0_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_0_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_0_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-LightIt';
+  src: font-url('#{$font-path}ProximaNova/2F4886_1_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_1_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_1_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_1_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_1_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: font-url('#{$font-path}ProximaNova/2F4886_2_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_2_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_2_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_2_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_2_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-RegularIt';
+  src: font-url('#{$font-path}ProximaNova/2F4886_3_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_3_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_3_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_3_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_3_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: font-url('#{$font-path}ProximaNova/2F4886_4_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_4_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_4_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_4_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_4_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-SemiboldIt';
+  src: font-url('#{$font-path}ProximaNova/2F4886_5_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_5_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_5_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_5_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_5_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Thin';
+  src: font-url('#{$font-path}ProximaNova/2F4886_6_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_6_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_6_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_6_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_6_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-ThinIt';
+  src: font-url('#{$font-path}ProximaNova/2F4886_7_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_7_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_7_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_7_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_7_0.ttf') format('truetype');
+}
+
+// Colfax
+// (c) 2013 Process Type Foundry
+// http://processtypefoundry.com
+// info@processtype.com
+
+@font-face {
+  font-family: 'Colfax-Light';
+  src: font-url('#{$font-path}Colfax/ColfaxWebLight.eot');
+  src: font-url('#{$font-path}Colfax/ColfaxWebLight.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}Colfax/ColfaxWebLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Colfax-Medium';
+  src: font-url('#{$font-path}Colfax/ColfaxWebMedium.eot');
+  src: font-url('#{$font-path}Colfax/ColfaxWebMedium.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}Colfax/ColfaxWebMedium.woff') format('woff');
+}
+
+// Override legacy font names
+@font-face {
+  font-family: 'Proxima N W15 Light';
+  src: font-url('#{$font-path}ProximaNova/2F4886_0_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_0_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_0_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_0_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proxima N W15 Reg';
+  src: font-url('#{$font-path}ProximaNova/2F4886_2_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_2_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_2_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_2_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_2_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proxima N W15 Smbd';
+  src: font-url('#{$font-path}ProximaNova/2F4886_4_0.eot');
+  src: font-url('#{$font-path}ProximaNova/2F4886_4_0.eot?#iefix') format('embedded-opentype'),
+       font-url('#{$font-path}ProximaNova/2F4886_4_0.woff2') format('woff2'),
+       font-url('#{$font-path}ProximaNova/2F4886_4_0.woff') format('woff'),
+       font-url('#{$font-path}ProximaNova/2F4886_4_0.ttf') format('truetype');
+}
+
+
+// Available font families:
+//   Colfax-Light
+//   Colfax-Medium
+//   ProximaNova-Light
+//   ProximaNova-LightIt
+//   ProximaNova-Regular
+//   ProximaNova-RegularIt
+//   ProximaNova-Semibold
+//   ProximaNova-SemiboldIt
+//   ProximaNova-ThinIt
+
+body {
+  font-family: ProximaNova-Light;
+  color: rgba($slate, .6);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  display: block;
+  margin-bottom: 10px;
+  font-family: Colfax-Light;
+  font-weight: normal;
+}
+
+h1 {
+  margin-bottom: 27px;
+  font-size: 36px;
+  line-height: 40px;
+  color: $slate;
+}
+
+h2 {
+  margin-bottom: 18px;
+  font-size: 24px;
+  line-height: 30px;
+  color: $slate;
+}
+
+h3 {
+  margin-bottom: 13px;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba($slate, .6);
+}
+
+h4 {
+  margin-bottom: 12px;
+  font-family: Colfax-Medium;
+  font-size: 16px;
+  line-height: 20px;
+  color: $slate;
+  letter-spacing: 1px;
+}
+
+.error {
+  color: $ron-burgundy;
+}
+
+.small {
+  font-family: ProximaNova-Regular;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+p {
+  margin-bottom: 27px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+strong {
+  font-family: ProximaNova-Semibold;
+}
+
+em {
+  font-family: ProximaNova-LightIt;
+}
+
+strong em,
+em strong {
+  font-family: ProximaNova-SemiboldIt;
+}

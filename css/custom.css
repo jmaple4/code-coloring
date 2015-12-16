@@ -1,0 +1,66 @@
+/* line 1, ../scss/custom.scss */
+.mainContent {
+  width: 1011px;
+  margin: 0 auto;
+}
+
+/* removing the meta info */
+/* line 8, ../scss/custom.scss */
+html .gist .gist-file {
+  padding-top: 0!important;
+  margin-bottom: 58px;
+  border-radius: 4px;
+}
+
+/* line 14, ../scss/custom.scss */
+html .gist .gist-file .gist-meta {
+  display: none;
+}
+
+/* Removing the box shadow */
+/* line 20, ../scss/custom.scss */
+figure.code, .gist-file, pre {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* NICK'S NEW STUFF */
+/* line 29, ../scss/custom.scss */
+.gist .pl-s {
+  color: #5810E0;
+}
+/* line 33, ../scss/custom.scss */
+.gist .pl-c1 {
+  color: #F03FFF;
+}
+/* line 37, ../scss/custom.scss */
+.gist .highlight {
+  background: #F9F9F9;
+}
+/* line 41, ../scss/custom.scss */
+.gist .blob-num {
+  background: rgba(197, 197, 197, 0.18);
+}
+/* line 46, ../scss/custom.scss */
+.gist .blob-wrapper table,
+.gist .gist-file,
+.gist .gist-file .gist-data {
+  border: none!important;
+}
+
+/* Response code color hacks */
+/* Red = #FF3600 */
+/* Green = #18C96E */
+/* Errors */
+/* line 58, ../scss/custom.scss */
+#gist29049576 .blob-code {
+  color: #FF3600;
+}
+
+/* Successes */
+/* line 66, ../scss/custom.scss */
+#gist29052533 .blob-code,
+#gist29052689 .blob-code {
+  color: #18C96E;
+}
