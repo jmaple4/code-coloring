@@ -1,0 +1,50 @@
+/* line 1, ../scss/layout.scss */
+.mainContent {
+  width: 1011px;
+  margin: 0 auto;
+}
+
+/* removing the meta info */
+/* line 8, ../scss/layout.scss */
+html .gist .gist-file {
+  padding-top: 0!important;
+  margin-bottom: 58px;
+  border-radius: 4px;
+}
+
+/* line 14, ../scss/layout.scss */
+html .gist .gist-file .gist-meta {
+  display: none;
+}
+
+/* NICK'S NEW STUFF */
+/* line 21, ../scss/layout.scss */
+.gist .pl-s {
+  color: #5810E0;
+}
+/* line 25, ../scss/layout.scss */
+.gist .pl-c1 {
+  color: #F03FFF;
+}
+/* line 29, ../scss/layout.scss */
+.gist .highlight {
+  background: #F9F9F9;
+}
+/* line 33, ../scss/layout.scss */
+.gist .blob-num {
+  background: rgba(197, 197, 197, 0.18);
+}
+/* line 38, ../scss/layout.scss */
+.gist .blob-wrapper table,
+.gist .gist-file,
+.gist .gist-file .gist-data {
+  border: none!important;
+}
+
+/* Removing the box shadow */
+/* line 45, ../scss/layout.scss */
+figure.code, .gist-file, pre {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}

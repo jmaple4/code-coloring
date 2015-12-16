@@ -1,0 +1,287 @@
+/* line 1, ../scss/base-styling.scss */
+.gist {
+  color: #000;
+}
+/* line 7, ../scss/base-styling.scss */
+.gist .render-container .render-viewer-error,
+.gist .render-container .render-viewer-fatal,
+.gist .render-container .octospinner {
+  display: none;
+}
+/* line 11, ../scss/base-styling.scss */
+.gist .gist-render iframe {
+  width: 100%;
+}
+/* line 15, ../scss/base-styling.scss */
+.gist pre {
+  font: inherit;
+  line-height: inherit;
+  white-space: pre;
+}
+/* line 21, ../scss/base-styling.scss */
+.gist .gist-file {
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  margin-bottom: 1em;
+}
+/* line 28, ../scss/base-styling.scss */
+.gist .gist-file.gist-render {
+  border: none;
+}
+/* line 32, ../scss/base-styling.scss */
+.gist .gist-file .gist-meta {
+  font: 12px "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  color: #999;
+  padding: 10px;
+  background-color: #e8e8e8;
+  background-image: -moz-linear-gradient(#fafafa, #e8e8e8);
+  background-image: -webkit-linear-gradient(#fafafa, #e8e8e8);
+  background-image: linear-gradient(#fafafa, #e8e8e8);
+  background-repeat: repeat-x;
+}
+/* line 44, ../scss/base-styling.scss */
+.gist .gist-file .gist-meta a {
+  font-weight: bold;
+  color: #666;
+  text-decoration: none;
+}
+/* line 51, ../scss/base-styling.scss */
+.gist .gist-file .gist-data {
+  overflow: auto;
+  word-wrap: normal;
+  background-color: #f8f8ff;
+  border-bottom: 1px solid #ddd;
+  font-size: 100%;
+}
+/* line 60, ../scss/base-styling.scss */
+.gist .gist-file.scroll .gist-data {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 30px;
+  left: 0;
+  overflow: scroll;
+}
+/* line 69, ../scss/base-styling.scss */
+.gist .gist-file.scroll .gist-meta {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+/* line 78, ../scss/base-styling.scss */
+.gist .gist-file .gist-data .line-data {
+  padding: 0.5em !important;
+}
+/* line 82, ../scss/base-styling.scss */
+.gist .gist-file .gist-data .line-pre {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  background: transparent !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 90, ../scss/base-styling.scss */
+.gist .gist-file .gist-data .gist-highlight {
+  background: transparent !important;
+}
+/* line 94, ../scss/base-styling.scss */
+.gist .gist-file .gist-data .line-numbers {
+  background-color: #ececec;
+  color: #aaa;
+  border-right: 1px solid #ddd;
+  text-align: right;
+  padding: .5em;
+}
+/* line 101, ../scss/base-styling.scss */
+.gist .gist-file .gist-data .line-numbers .line-number {
+  clear: right;
+  display: block;
+}
+
+/* line 111, ../scss/base-styling.scss */
+.gist-syntax {
+  background: #fff;
+}
+/* line 114, ../scss/base-styling.scss */
+.gist-syntax .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+/* line 120, ../scss/base-styling.scss */
+.gist-syntax .k,
+.gist-syntax .o {
+  color: #000;
+  font-weight: bold;
+}
+/* line 127, ../scss/base-styling.scss */
+.gist-syntax .c,
+.gist-syntax .cm,
+.gist-syntax .c1 {
+  color: #998;
+  font-style: italic;
+}
+/* line 133, ../scss/base-styling.scss */
+.gist-syntax .cp,
+.gist-syntax .cs {
+  color: #999;
+  font-weight: bold;
+}
+/* line 138, ../scss/base-styling.scss */
+.gist-syntax .cs {
+  font-style: italic;
+}
+/* line 142, ../scss/base-styling.scss */
+.gist-syntax .gd {
+  color: #000;
+  background-color: #fdd;
+}
+/* line 145, ../scss/base-styling.scss */
+.gist-syntax .gd .x {
+  color: #000;
+  background-color: #faa;
+}
+/* line 151, ../scss/base-styling.scss */
+.gist-syntax .ge {
+  color: #000;
+  font-style: italic;
+}
+/* line 156, ../scss/base-styling.scss */
+.gist-syntax .gr {
+  color: #a00;
+}
+/* line 160, ../scss/base-styling.scss */
+.gist-syntax .gh {
+  color: #999;
+}
+/* line 164, ../scss/base-styling.scss */
+.gist-syntax .gi {
+  color: #000;
+  background-color: #dfd;
+}
+/* line 167, ../scss/base-styling.scss */
+.gist-syntax .gi .x {
+  color: #000;
+  background-color: #afa;
+}
+/* line 173, ../scss/base-styling.scss */
+.gist-syntax .go {
+  color: #888;
+}
+/* line 177, ../scss/base-styling.scss */
+.gist-syntax .gp {
+  color: #555;
+}
+/* line 181, ../scss/base-styling.scss */
+.gist-syntax .gs {
+  font-weight: bold;
+}
+/* line 185, ../scss/base-styling.scss */
+.gist-syntax .gu {
+  color: #aaa;
+}
+/* line 189, ../scss/base-styling.scss */
+.gist-syntax .gt {
+  color: #a00;
+}
+/* line 196, ../scss/base-styling.scss */
+.gist-syntax .kc,
+.gist-syntax .kd,
+.gist-syntax .kp,
+.gist-syntax .kr {
+  color: #000;
+  font-weight: bold;
+}
+/* line 201, ../scss/base-styling.scss */
+.gist-syntax .kt {
+  color: #445588;
+  font-weight: bold;
+}
+/* line 206, ../scss/base-styling.scss */
+.gist-syntax .s {
+  color: #d14;
+}
+/* line 210, ../scss/base-styling.scss */
+.gist-syntax .nb {
+  color: #0086b3;
+}
+/* line 214, ../scss/base-styling.scss */
+.gist-syntax .nc {
+  color: #445588;
+  font-weight: bold;
+}
+/* line 219, ../scss/base-styling.scss */
+.gist-syntax .ni {
+  color: #800080;
+}
+/* line 224, ../scss/base-styling.scss */
+.gist-syntax .ne,
+.gist-syntax .nf {
+  color: #900;
+  font-weight: bold;
+}
+/* line 229, ../scss/base-styling.scss */
+.gist-syntax .nn {
+  color: #555;
+}
+/* line 233, ../scss/base-styling.scss */
+.gist-syntax .nt {
+  color: #000080;
+}
+/* line 237, ../scss/base-styling.scss */
+.gist-syntax .ow {
+  color: #000;
+  font-weight: bold;
+}
+/* line 242, ../scss/base-styling.scss */
+.gist-syntax .w {
+  color: #bbb;
+}
+/* line 251, ../scss/base-styling.scss */
+.gist-syntax .il,
+.gist-syntax .m,
+.gist-syntax .mf,
+.gist-syntax .mh,
+.gist-syntax .mi,
+.gist-syntax .mo {
+  color: #099;
+}
+/* line 265, ../scss/base-styling.scss */
+.gist-syntax .sb,
+.gist-syntax .sc,
+.gist-syntax .s2,
+.gist-syntax .se,
+.gist-syntax .sh,
+.gist-syntax .si,
+.gist-syntax .sx,
+.gist-syntax .sb,
+.gist-syntax .sb,
+.gist-syntax .sb,
+.gist-syntax .s1 {
+  color: #dd1144;
+}
+/* line 269, ../scss/base-styling.scss */
+.gist-syntax .sr {
+  color: #009926;
+}
+/* line 273, ../scss/base-styling.scss */
+.gist-syntax .ss {
+  color: #990073;
+}
+/* line 277, ../scss/base-styling.scss */
+.gist-syntax .bp {
+  color: #999999;
+}
+/* line 286, ../scss/base-styling.scss */
+.gist-syntax .vc,
+.gist-syntax .vg,
+.gist-syntax .vi,
+.gist-syntax .na,
+.gist-syntax .nv,
+.gist-syntax .no {
+  color: #008080;
+}

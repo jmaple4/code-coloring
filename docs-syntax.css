@@ -353,7 +353,7 @@ figure.code pre, figure.code .highlight {
 
 /* NICK'S NEW STUFF */
 
-.gist .pl-s {
+/*.gist .pl-s {
 	color: #5810E0;
 }
 .gist .pl-c1 {
@@ -366,7 +366,7 @@ figure.code pre, figure.code .highlight {
 
 .gist .blob-num {
 	background: rgba(197, 197, 197, 0.18);
-}
+}*/
 
 /* removing the meta info */
 

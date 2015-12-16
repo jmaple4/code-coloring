@@ -1,0 +1,49 @@
+.mainContent {
+	width: 1011px;
+	margin: 0 auto;
+}
+
+/* removing the meta info */
+
+html .gist .gist-file {
+	padding-top: 0!important;
+	margin-bottom: 58px;
+	border-radius: 4px;
+}
+
+html .gist .gist-file .gist-meta {
+	display: none;
+}
+
+/* NICK'S NEW STUFF */
+
+.gist {
+    .pl-s {
+        color: #5810E0;
+    }
+
+    .pl-c1 {
+        color: #F03FFF;
+    }
+
+    .highlight {
+        background: #F9F9F9;
+    }
+
+    .blob-num {
+        background: rgba(197, 197, 197, 0.18);
+    }
+	.blob-wrapper table,
+	.gist-file,
+	.gist-file .gist-data {
+		border: none!important;
+	}
+}
+
+/* Removing the box shadow */
+
+figure.code, .gist-file, pre {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
